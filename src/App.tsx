@@ -58,12 +58,13 @@ const CV = React.forwardRef<
           <div className="nameTitle" style={{ backgroundColor: data.color2 }}>
             <h1>{data.name}</h1>
           </div>
-          <p style={{ textAlign: "center", marginTop: "1em" }}>
+          <p style={{ textAlign: "start", marginTop: "1em" }}>
+            &nbsp;&nbsp;&nbsp;
             {data.about !== ""
               ? data.about
               : data.isEnglish
-              ? "Beginning developer, for whom every encountered problem becomes a puzzle, that he can add to his programming knowledge."
-              : "Początkujący developer, dla którego każdy napotkany problem to kolejny klocek, który dokłada do swojej programistycznej wiedzy."}
+              ? "Engineer with experience in graphic software, specializing in the creation and implementation of projects, ready for new growth opportunities."
+              : "Inżynier z doświadczeniem w programach graficznych, specjalizujący się w tworzeniu oraz realizacji projektów, gotowy na nowe możliwości rozwoju"}
           </p>
           <div>
             <h3
@@ -126,8 +127,8 @@ const CV = React.forwardRef<
               {data.interests !== ""
                 ? data.interests
                 : data.isEnglish
-                ? "I am interested in new technologies and astronomy, which is also the reason for my interest in popular science books and sci-fi literature. I also like to watch movies and tv series focused on those topics. In my free time I like to play computer games, usually the strategic ones."
-                : "Interesuje się nowościami technologicznymi i astronomią, stąd też lubię książki popularno naukowe jak i literaturę sci-fi. Filmy i seriale z tej dziedziny, także należą do grona moich zainteresowań. W wolnym czasie gram w gry komputerowe, najczęściej w stare strategie."}
+                ? "I am interested in technological innovations and programming, which I try to implement in my daily life. In my free time, I play classic strategy games and watch sci-fi movies."
+                : "Interesuję się nowinkami technologicznymi i programowaniem, które staram się wdrażać w codzienne życie. W wolnym czasie grywam w stare strategie oraz oglądam filmy sci-fi."}
             </span>
           </div>
         </div>
