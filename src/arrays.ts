@@ -64,7 +64,7 @@ export const contactsExport: ContactInfo[] = [
 
 export const educationExport: EducationInfo[] = [
   {
-    isActive: true,
+    isActive: false,
     eng: "GoIT course Full Stack",
     pl: "GoIT kurs Full Stack",
     date: "03.2023 - 03.2024",
@@ -90,6 +90,17 @@ export const educationExport: EducationInfo[] = [
 ];
 
 export const experienceExport: ExperienceInfo[] = [
+  {
+    isActive: true,
+    engTitle: "Construction Cost Estimator at Poltrade",
+    plTitle: "Inżynier do spraw ofertowania w Poltrade",
+    engText:
+      "Przygotowywanie ofert i kosztorysów w obszarze hydroizolacji. Analizowanie projektów, dobieranie odpowiednich systemów oraz wspieranie zespołów projektowych w doborze optymalnych rozwiązań.",
+    plText:
+      "Przygotowywanie ofert i kosztorysów w obszarze hydroizolacji. Analizowanie projektów, dobieranie odpowiednich systemów oraz wspieranie zespołów projektowych w doborze optymalnych rozwiązań.",
+    date: "05.2025-obecnie",
+    name: "Kosztorysant w Poltrade",
+  },
   {
     isActive: false,
     engTitle:
